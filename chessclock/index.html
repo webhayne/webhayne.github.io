@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CHESS_CLOCK</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width"/>
+</head>
+<body onkeydown="key()">
+	<h1>CHESS CLOCK</h1>
+	<div class="container">
+		<input type="number" id="m" placeholder="Nhập số phút">
+		<input type="number" id="s" placeholder="Nhập số giây">
+		<input type="button" name="submit" value="Bắt đầu" onclick="start()">
+	</div>
+	<table>
+		<td onclick="clicky('left')" id="left">
+			<span id="ml">Phút</span>:
+			<span id="sl">Giây</span>:
+			<span id="msl">Mili Giây</span>
+		</td>
+		<td onclick="clicky('right')" id="right">
+			<span id="mr">Phút</span>:
+			<span id="sr">Giây</span>:
+			<span id="msr">Mili Giây</span>
+		</td>
+	</table>
+	<script src="style.js"></script>
+</body>
+</html>
