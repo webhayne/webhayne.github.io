@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flow-root;
+    height: 100%;
+    background-color: pink;
+    background-image: url("./data/heart.png");
+    -webkit-background-size: 100%100%;
+    -moz-background-size: 100%100%;
+    -o-background-size: 100%100%;
+    background-size: 100%100%;
+}
+
+#button {
+    display: flow-root;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 30%;
+}
+
+#frame {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: auto;
+}
+
+#needtoplay{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
